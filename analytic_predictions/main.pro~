@@ -1,0 +1,48 @@
+pro main
+
+c = 3E8
+H0 = 2.1916E-18
+
+meters_to_kpc = double(3.086E19)
+
+f_R = 0.84D
+R_star = double(75.0*meters_to_kpc)
+beta = 0.23D
+alpha = -1.75D
+phi_star = double(exp(-3.12)/((1000.0*meters_to_kpc)^3))
+
+l_ratio = [0.03,0.06,0.1,0.2,0.5,0.7,1.0]
+
+gamma_arg = alpha+(2*beta)+1
+
+upper_gamma = GAMMA(gamma_arg)*(1 - IGAMMA(gamma_arg, l_ratio))
+dNdX = (c*!PI/H0)*f_R*R_star*R_star*phi_star*upper_gamma
+
+cgplot, l_ratio, dNdX/100.0, xrange=[0.025,1.5],/YLOG, /XLOG, /Window
+
+;;; at Lb.L_star = 1:
+
+dNdX = (c*!PI/H0)*f_R*R_star*R_star*phi_star*exp(-gamma_arg)
+
+print, dNdX
+
+
+;;; different base units
+
+
+c = 3E5
+H0 = 67.74
+
+f_R = 0.84D
+R_star = double(75.0/1000.0)
+beta = 0.23D
+alpha = -1.75D
+phi_star = double(exp(-3.12))
+
+l_ratio = [0.03,0.06,0.1,0.2,0.5,0.7,1.0]
+
+gamma_arg = alpha+(2*beta)+1
+
+upper_gamma = GAMMA(gamma_arg)*(1 - IGAMMA(gamma_arg, l_ratio))
+dNdX = (c*!PI/H0)*f_R*R_star*R_star*phi_star*upper_gamma
+

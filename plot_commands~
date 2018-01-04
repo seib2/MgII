@@ -1,0 +1,6 @@
+set output 'aa.png'
+
+set xlabel 'z'
+set xrange [0:7]
+set ylabel 'dn/dX (>0.3A)'
+plot 'compil_dndx' u (($1+$2)/2.0):3:1:2:($3-$4):($3+$4):6 w xyerrorbars notitle linecolor variable
