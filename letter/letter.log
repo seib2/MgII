@@ -1,7 +1,7 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2016.9.21)  4 JAN 2018 19:02
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2016.9.21)  5 JAN 2018 16:11
 entering extended mode
  %&-line parsing enabled.
-**letter
+**letter.tex
 (./letter.tex
 LaTeX2e <2005/12/01>
 Babel <v3.8h> and hyphenation patterns for english, usenglishmax, dumylang, noh
@@ -226,15 +226,15 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 36.
 (/usr/share/texmf/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2002/01/19 v2.2g AMS font definitions
 )
-Underfull \vbox (badness 2608) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 86.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 88.
 
 (/usr/share/texmf/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 86.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 88.
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
@@ -253,47 +253,44 @@ File: plots/MgII_range.png Graphic file (type png)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3 <./plots/MgII_few.png (PNG copy)> <./plots/MgII_range.png (PNG copy)>]
-<plots/smallest1.png, id=39, 727.71875pt x 475.7775pt>
+<plots/smallest1.png, id=38, 727.71875pt x 475.7775pt>
 File: plots/smallest1.png Graphic file (type png)
 
 <use plots/smallest1.png>
-<plots/smallest2.png, id=40, 701.62125pt x 466.74374pt>
+<plots/smallest2.png, id=39, 701.62125pt x 466.74374pt>
 File: plots/smallest2.png Graphic file (type png)
 
-<use plots/smallest2.png> (./letter.bbl
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-) [4 <./plots/smallest1.png (PNG copy)> <./plots/smallest2.png (PNG copy)>] (./
-letter.aux) ) 
+<use plots/smallest2.png> (./letter.bbl) [4 <./plots/smallest1.png (PNG copy)> 
+<./plots/smallest2.png (PNG copy)>] (./letter.aux) ) 
 Here is how much of TeX's memory you used:
- 2850 strings out of 256214
- 31924 string characters out of 1917000
- 104597 words of memory out of 1500000
- 6077 multiletter control sequences out of 10000+200000
- 23410 words of font info for 86 fonts, out of 1200000 for 2000
+ 2848 strings out of 256214
+ 31905 string characters out of 1917000
+ 104235 words of memory out of 1500000
+ 6076 multiletter control sequences out of 10000+200000
+ 23058 words of font info for 85 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
- 28i,18n,35p,1010b,303s stack positions out of 5000i,500n,6000p,200000b,15000s
-</usr/share/texmf/fonts/type1/bluesky/cm/cmbx12.pfb></usr/share/te
-xmf/fonts/type1/bluesky/cm/cmbx6.pfb></usr/share/texmf/fonts/type1/bluesky/cm/c
-mbx8.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmbx9.pfb></usr/share/texmf/f
-onts/type1/bluesky/cm/cmmi10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmmi1
-2.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmmi6.pfb></usr/share/texmf/font
-s/type1/bluesky/cm/cmmi8.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmmi9.pfb
-></usr/share/texmf/fonts/type1/bluesky/cm/cmr10.pfb></usr/share/texmf/fonts/typ
-e1/bluesky/cm/cmr12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr17.pfb></us
-r/share/texmf/fonts/type1/bluesky/cm/cmr5.pfb></usr/share/texmf/fonts/type1/blu
-esky/cm/cmr6.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr7.pfb></usr/share/
-texmf/fonts/type1/bluesky/cm/cmr8.pfb></usr/share/texmf/fonts/type1/bluesky/cm/
-cmr9.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy10.pfb></usr/share/texmf/
-fonts/type1/bluesky/cm/cmsy5.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy6
-.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy8.pfb></usr/share/texmf/fonts
-/type1/bluesky/cm/cmsy9.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmti12.pfb
-></usr/share/texmf/fonts/type1/bluesky/cm/cmti8.pfb></usr/share/texmf/fonts/typ
-e1/public/cmex/fmex9.pfb></usr/share/texmf/fonts/type1/bluesky/ams/msam10.pfb><
-/usr/share/texmf/fonts/type1/bluesky/ams/msam7.pfb>
-Output written on letter.pdf (4 pages, 539631 bytes).
+ 27i,18n,35p,1014b,274s stack positions out of 5000i,500n,6000p,200000b,15000s
+</usr/share/texmf/fonts/typ
+e1/bluesky/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmbx6.pfb></u
+sr/share/texmf/fonts/type1/bluesky/cm/cmbx8.pfb></usr/share/texmf/fonts/type1/b
+luesky/cm/cmbx9.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmmi10.pfb></usr/s
+hare/texmf/fonts/type1/bluesky/cm/cmmi12.pfb></usr/share/texmf/fonts/type1/blue
+sky/cm/cmmi6.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmmi8.pfb></usr/share
+/texmf/fonts/type1/bluesky/cm/cmmi9.pfb></usr/share/texmf/fonts/type1/bluesky/c
+m/cmr10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr12.pfb></usr/share/texm
+f/fonts/type1/bluesky/cm/cmr17.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr
+5.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr6.pfb></usr/share/texmf/fonts
+/type1/bluesky/cm/cmr7.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr8.pfb></
+usr/share/texmf/fonts/type1/bluesky/cm/cmr9.pfb></usr/share/texmf/fonts/type1/b
+luesky/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy5.pfb></usr/s
+hare/texmf/fonts/type1/bluesky/cm/cmsy6.pfb></usr/share/texmf/fonts/type1/blues
+ky/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy9.pfb></usr/share/
+texmf/fonts/type1/bluesky/cm/cmti12.pfb></usr/share/texmf/fonts/type1/public/cm
+ex/fmex9.pfb></usr/share/texmf/fonts/type1/bluesky/ams/msam10.pfb></usr/share/t
+exmf/fonts/type1/bluesky/ams/msam7.pfb>
+Output written on letter.pdf (4 pages, 520491 bytes).
 PDF statistics:
- 127 PDF objects out of 1000 (max. 8388607)
+ 123 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

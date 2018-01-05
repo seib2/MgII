@@ -19,14 +19,14 @@
 \newcommand{\nfive}{N~{\small V} }
 \newcommand{\magtwo}{Mg~{\small II} }
 
-\author[Bosman \& Codoreanu]
-  {Sarah E. I. Bosman$^{1}$, Alex Codoreanu$^{2}$
-\\
-% List of institutions
-$^{1}$ Department of Physics and Astronomy, University College London, Gower Street, London WC1E 6BT, UK \\
-$^{2}$ Centre for Astrophysics and Supercomputing, Swinburne University of Technology, Hawthorn, Victoria 3122, Australia \\
-$^{3}$ ARC Centre of Excellence for All-sky Astrophysics (CAASTRO)
-}
+%\author[Bosman \& Codoreanu]
+%  {Sarah E. I. Bosman$^{1}$, Alex Codoreanu$^{2}$
+%\\
+%% List of institutions
+%$^{1}$ Department of Physics and Astronomy, University College London, Gower Street, London WC1E 6BT, UK \\
+%$^{2}$ Centre for Astrophysics and Supercomputing, Swinburne University of Technology, Hawthorn, Victoria 3122, Australia \\
+%$^{3}$ ARC Centre of Excellence for All-sky Astrophysics (CAASTRO)
+%}
 
 
 \title{Physical sizes of Mg~II haloes beyond $z=5$: a statistical study}
@@ -86,28 +86,28 @@ The luminosity function $\Phi(L)$ has empirically been determined to be well des
 \end{equation}
 The LF is determined by two parameters ${\Phi^*,\alpha}$. At $5<z<7$, the determinations of these parameters by various authors are mildly discrepant, mostly due to systematic uncertainties \citep{Bouwens16}. since our aim is to determine the range of enrichment radii permitted by observations, we include all current measurements of ${\Phi^*,\alpha}$ in our error budget. The range of values used herein are displayed in Table X.
 
+\begin{table}
+\centering
+\begin{tabular}{l c c}
+ &$dN/dX$ & source \\
+\hline
+$z=5$ & $0.86\pm0.19$&\citet{Codoreanu17} \\
+\hline
+$z=6.5$&$1.00_{-0.5}^{+0.75}$&\citet{Bosman17}\\
+\hline
+\end{tabular}
+\caption{Current measurements of occurrence rates of \magtwo absorption. The measurements are sensitive to systems with $W_\text{rest}\geq 0.1$\AA. Value from \citet{Bosman17} incorporates the data from \citet{Chen16} over the same range.}
+\end{table}
 
 \begin{table}
 \centering
-\begin{tabular}{l c c c}
- &$\alpha$ & $\phi^*$ & source \\
+\begin{tabular}{c c c}
+$\beta$&$f$&$L_\text{min}/L^*$ \\
 \hline
-$z=5$ & $-1.75 \pm 0.13$ & $0.000758^{+0.00056}_{-0.00022}$ & \citet{Mason15} \\
-& $-1.76 \pm 0.06$ & $0.00079^{+0.00023}_{-0.00018}$ & \citet{Bouwens15} \\
-& $-1.67^{+0.05}_{-0.06}$&$0.000895^{+0.000192}_{-0.000131}$&\citet{Finkelstein15}\\
-\hline
-$z=6$ & $-2.10^{+0.08}_{-0.03}$&$0.00023\pm0.00002$&\citet{Livermore17} \\
-& $-2.02^{+0.10}_{-0.10}$&$0.000186^{+0.000094}_{-0.000080}$&\citet{Finkelstein15}\\
-\hline
-$z=7$ & $-2.07^{+0.05}_{-0.04}$&$0.00021\pm0.00002$&\citet{Livermore17} \\
-&$-2.04^{+0.17}_{-0.13}$&$0.00028^{+0.00051}_{-0.00018}$&\citet{Atek15} \\
-&$-1.94^{+0.09}_{-0.11}$&$0.00050^{+0.00013}_{-0.00018}$&\citet{Ishigaki15} \\
-& $-2.03^{+0.21}_{-0.20}$&$0.000157^{+0.000149}_{-0.000095}$&\citet{Finkelstein15}\\
-\hline
+$[0.1 - 0.5]$&$[0.5 - 1.0]$&$[0.0001 - 1.0]$\\
 \end{tabular}
-\caption{Current measurements of the UV LF parameters $\alpha$ and $\Phi^*$ from various recent studies. The mild discrepancies are most likely due to systematic differences between measurement techniques.}
+\caption{Allowed ranges for parameters which have not been directly measured at $z>5$.}
 \end{table}
-
 
 
 
@@ -139,31 +139,31 @@ or equivalently,
 Tables 1 and 2 show the most current constraints on $\alpha,\Phi^*$ and $dN/dX$, which we will use in the next section. While measurements of $\alpha$ over $5\leq z\leq 7$ are consistent among all published studies within error, this is not the case for the other luminosity function parameter $\Phi^*$. Much debate is ongoing regarding this topic, with the leading proposed source of systematics being a mis-estimation of the lensing model uncertainties. We are not concerned in this paper with obtaining the most precise value of $\Phi^*$, but simply exploring all models allowed within observational constraints. We therefore adopt the maximally conservative approach of an `allowed range' for $\Phi^*$ extending from the one-sigma lowest allowed value by any author, to the highest one-sigma allowed value by any author in the recent literature. This yields bounds of $\Phi^* \in [0.0007,0.001]$ at $z=5.0$, $\Phi^* \in [0.0001,0.00028]$ at $z=6.0$, and $\Phi^* \in [0.000062,0.00079]$ at $z=7.0$.
 
 
-Table 3 gives the allowed parameter ranges for $\beta, f$ and $L_\text{min}/L^*$, which have not been measured directly at these redshifts. Values of $\beta=0.23 \pm 0.01$ and $f = 0.84\pm 0.04$ have been measured by  \citet{Nielsen13} at $0.072<z<1.120$, but these values are expected to be different in the early universe as galaxy formation is ongoing, the UVB is patchier, and metal enrichment has not reached present-day levels. The value of $L_text{min}$, the limiting luminosity above which galaxies contain \magtwo, is even more unconstrained and we accordingly treat it as a free parameter.
+Table 3 gives the allowed parameter ranges for $\beta, f$ and $L_\text{min}/L^*$, which have not been measured directly at these redshifts. Values of $\beta=0.23 \pm 0.01$ and $f = 0.84\pm 0.04$ have been measured by  \citet{Nielsen13} at $0.072<z<1.120$, but these values are expected to be different in the early universe as galaxy formation is ongoing, the UVB is patchier, and metal enrichment has not reached present-day levels. The value of $L_\text{min}$, the limiting luminosity above which galaxies contain \magtwo, is even more unconstrained and we accordingly treat it as a free parameter.
+
+
 
 
 
 \begin{table}
 \centering
-\begin{tabular}{l c c}
- &$dN/dX$ & source \\
+\begin{tabular}{l c c c}
+ &$\alpha$ & $\phi^*$ & source \\
 \hline
-$z=5$ & $0.86\pm0.19$&\citet{Codoreanu17} \\
+$z=5$ & $-1.75 \pm 0.13$ & $0.000758^{+0.00056}_{-0.00022}$ & \citet{Mason15} \\
+& $-1.76 \pm 0.06$ & $0.00079^{+0.00023}_{-0.00018}$ & \citet{Bouwens15} \\
+& $-1.67^{+0.05}_{-0.06}$&$0.000895^{+0.000192}_{-0.000131}$&\citet{Finkelstein15}\\
 \hline
-$z=6.5$&$1.00_{-0.5}^{+0.75}$&\citet{Bosman17}\\
+$z=6$ & $-2.10^{+0.08}_{-0.03}$&$0.00023\pm0.00002$&\citet{Livermore17} \\
+& $-2.02^{+0.10}_{-0.10}$&$0.000186^{+0.000094}_{-0.000080}$&\citet{Finkelstein15}\\
+\hline
+$z=7$ & $-2.07^{+0.05}_{-0.04}$&$0.00021\pm0.00002$&\citet{Livermore17} \\
+&$-2.04^{+0.17}_{-0.13}$&$0.00028^{+0.00051}_{-0.00018}$&\citet{Atek15} \\
+&$-1.94^{+0.09}_{-0.11}$&$0.00050^{+0.00013}_{-0.00018}$&\citet{Ishigaki15} \\
+& $-2.03^{+0.21}_{-0.20}$&$0.000157^{+0.000149}_{-0.000095}$&\citet{Finkelstein15}\\
 \hline
 \end{tabular}
-\caption{Current measurements of occurrence rates of \magtwo absorption. The measurements are sensitive to systems with $W_\text{rest}\geq 0.1$\AA. Value from \citet{Bosman17} incorporates the data from \citet{Chen16} over the same range.}
-\end{table}
-
-\begin{table}
-\centering
-\begin{tabular}{c c c}
-$\beta$&$f$&$L_\text{min}/L^*$ \\
-\hline
-$[0.1 - 0.5]$&$[0.5 - 1.0]$&$[0.0001 - 1.0]$\\
-\end{tabular}
-\caption{Allowed ranges for parameters which have not been directly measured at $z>5$.}
+\caption{Current measurements of the UV LF parameters $\alpha$ and $\Phi^*$ from various recent studies. The mild discrepancies are most likely due to systematic differences between measurement techniques.}
 \end{table}
 
 
