@@ -15,6 +15,25 @@ archivePrefix = "arXiv",
   adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
 
+@ARTICLE{Ishigaki15,
+   author = {{Ishigaki}, M. and {Kawamata}, R. and {Ouchi}, M. and {Oguri}, M. and 
+	{Shimasaku}, K. and {Ono}, Y.},
+    title = "{Hubble Frontier Fields First Complete Cluster Data: Faint Galaxies at z \~{} 5-10 for UV Luminosity Functions and Cosmic Reionization}",
+  journal = {\apj},
+archivePrefix = "arXiv",
+   eprint = {1408.6903},
+ keywords = {dark ages, reionization, first stars, galaxies: evolution, galaxies: formation, galaxies: high-redshift, gravitational lensing: strong},
+     year = 2015,
+    month = jan,
+   volume = 799,
+      eid = {12},
+    pages = {12},
+      doi = {10.1088/0004-637X/799/1/12},
+   adsurl = {http://adsabs.harvard.edu/abs/2015ApJ...799...12I},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+
 @ARTICLE{Atek15,
    author = {{Atek}, H. and {Richard}, J. and {Kneib}, J.-P. and {Jauzac}, M. and 
 	{Schaerer}, D. and {Clement}, B. and {Limousin}, M. and {Jullo}, E. and 

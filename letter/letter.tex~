@@ -19,24 +19,24 @@
 \newcommand{\nfive}{N~{\small V} }
 \newcommand{\magtwo}{Mg~{\small II} }
 
-%\author[Bosman \& Codoreanu]
-%  {Sarah E. I. Bosman$^{1}$, Alex Codoreanu$^{2}$
-%\\
-%% List of institutions
-%$^{1}$ Department of Physics and Astronomy, University College London, Gower Street, London WC1E 6BT, UK \\
-%$^{2}$ Centre for Astrophysics and Supercomputing, Swinburne University of Technology, Hawthorn, Victoria 3122, Australia \\
-%$^{3}$ ARC Centre of Excellence for All-sky Astrophysics (CAASTRO)
-%}
+\author[Bosman \& Codoreanu]
+  {Sarah E. I. Bosman$^{1}$, Alex Codoreanu$^{2}$
+\\
+% List of institutions
+$^{1}$ Department of Physics and Astronomy, University College London, Gower Street, London WC1E 6BT, UK \\
+$^{2}$ Centre for Astrophysics and Supercomputing, Swinburne University of Technology, Hawthorn, Victoria 3122, Australia \\
+$^{3}$ ARC Centre of Excellence for All-sky Astrophysics (CAASTRO)
+}
 
 
-\title{Physical sizes of Mg~II haloes beyond $z=5$: a statistical study}
-
+%\title{Physical sizes of Mg~II haloes beyond $z=5$: a statistical study}
+\title{How large are the Mg~II haloes around young galaxies at $z\gtreq 5$?}
 \date{}
 \begin{document}
 \maketitle
 
 \begin{abstract}
-We present a simple analytical model for constraining the sizes of \magtwo regions around young galaxies at $5<z<7$. Using a compilation of recent high-redshift measurements, we find that enriched regions around bright ($M_\text{AB} = -18$) galaxies must have sizes $R<200 cMpc$ to remain consistent with both the luminosity function of galaxies and occurrence rates of intervening absorbers towards background quasars. At the same time, we find that the lack of confirmed galaxy-absorber pairs in the fields around background quasars strongly implies a limiting magnitude of enrichment $M_\text{min}>-19$. This result might help guide observational attempts to find such galaxy-absorber pairs. Finally, we produce a chart of smallest enriched region size versus choice of limiting magnitude for enrichment, which might be of use for numerical models of metal enrichment as a guide for required resolution.
+We present a simple analytical model for constraining the sizes of \magtwo regions around young galaxies at $5\leq z<7$. Using a compilation of recent high-redshift measurements, we find that enriched regions around bright ($M_\text{AB} = -18$) galaxies must have sizes $R<200$ ckpc to remain consistent with both the luminosity function of galaxies and occurrence rates of intervening absorbers towards background quasars. At the same time, we find that the lack of confirmed galaxy-absorber pairs in the fields around background quasars strongly implies a limiting magnitude of enrichment $M_\text{min}>-19$. This result might help guide observational attempts to find such galaxy-absorber pairs. Finally, we produce a chart of smallest enriched region size versus choice of limiting magnitude for enrichment, which might be of use for numerical models of metal enrichment as a guide for required resolution.
 \end{abstract}
 
 \section{Introduction}
@@ -84,7 +84,7 @@ The luminosity function $\Phi(L)$ has empirically been determined to be well des
 \begin{equation} 
 \Phi(L) dL = \Phi^* (L/L^*)^\alpha \text{exp} (-L/L^*) dL.
 \end{equation}
-The LF is determined by two parameters ${\Phi^*,\alpha}$. At $5<z<7$, the determinations of these parameters by various authors are mildly discrepant, mostly due to systematic uncertainties \citep{Bouwens16}. since our aim is to determine the range of enrichment radii permitted by observations, we include all current measurements of ${\Phi^*,\alpha}$ in our error budget. The range of values used herein are displayed in Table X.
+The LF is determined by two parameters ${\Phi^*,\alpha}$. At $5<z<7$, the determinations of these parameters by various authors are mildly discrepant, mostly due to systematic uncertainties \citep{Bouwens16}. since our aim is to determine the range of enrichment radii permitted by observations, we include all current measurements of ${\Phi^*,\alpha}$ in our error budget. The range of values used herein are displayed in Table 3.
 
 \begin{table}
 \centering
@@ -174,9 +174,9 @@ $z=7$ & $-2.07^{+0.05}_{-0.04}$&$0.00021\pm0.00002$&\citet{Livermore17} \\
 
 \begin{figure*}
 \includegraphics[width=0.85\textwidth]{plots/MgII_few.png}
-\caption{Relation between an object's AB magnitude and the expected size of the surrounding \magtwo enriched region. Shades of grey correspond to varying $L_\text{min}/L^*=0.0001,0.001,0.01,0.1$ corresponding to limiting magnitudes of $M_\text{min} = -11.2, -13.7, -16.2, -18.7$, from dark to light. Line shape shows the effect of varying $\beta=0.1,0.23,0.3,0.4$, from continuous to dashed to dotted. Not all lines extend to low luminosities, since those systems are not  enriched if $M_\text{min}$ is high.}
-\includegraphics[width=0.9\textwidth]{plots/MgII_range.png}
-\caption{Same as Figure 1 for a continuum of models, with all parameters in equation (8) sampled from the allowed ranges given in Tables 1,2 and 3. The regions through which the largest number of models pass are shown in lighter gray, but depend strongly on the choice of prior used for sampling $L_\text{min}$ (and to a lesser extend $\Phi^*$). This figure showcases the full range of models which are compatible with observational constraints, as opposed to establishing which are more likely. However, some models can be excluded based on negative detections of galaxy-absorber pairs towards quasars as discussed in the text.}
+\caption{Relation between an object's AB magnitude and the expected size of the surrounding \magtwo enriched region. Shades of grey correspond to varying $L_\text{min}/L^*=0.0001,0.001,0.01,0.1$ corresponding to limiting magnitudes of $M_\text{min} = -11.2, -13.7, -16.2, -18.7$, from dark to light. Line shape shows the effect of varying $\beta=0.1,0.23,0.3,0.4$, from continuous to dashed to dotted. Not all lines extend to low luminosities, since those systems are not  enriched if $M_\text{min}$ is high.\\}
+\includegraphics[width=\textwidth]{plots/fig2-all.png}
+\caption{Same as Figure 1 for a continuum of models, with all parameters in equation (8) sampled from the allowed ranges given in Tables 1,2 and 3. The regions through which the largest number of models pass are shown in lighter grey, but depend strongly on the choice of prior used for sampling $L_\text{min}$ (and to a lesser extend $\Phi^*$). This figure showcases the full range of models which are compatible with observational constraints, as opposed to establishing which are more likely. However, some models can be excluded based on negative detections of galaxy-absorber pairs towards quasars as discussed in the text.}
 \end{figure*}
 
 
@@ -185,62 +185,35 @@ $z=7$ & $-2.07^{+0.05}_{-0.04}$&$0.00021\pm0.00002$&\citet{Livermore17} \\
 
 The relation $R(L) = R^* (L/L^*)^\beta$ only depends on two parameters $L_{min}$ and $\beta$, with $R^*$ being obtainable from measured quantities using Equation (7). Figure 1 illustrates the effect of varying $L_{min}$ and $\beta$ while keeping all measured parameters fixed at their respective means, while Figure 2 shows the full range of all permitted models in varying parameters within their observational errors. 
 
-This enables us to put constraints on the maximal extent of \magtwo enriched regions as a function of galaxy luminosity. For instance, the enriched regions around galaxies with $M_{AB} = -13$ cannot be larger 25 cMpc in any permissible model. Brighter galaxies with $M_{AB} \sim -18$ similarly cannot possess \magtwo regions larger than 200 cMpc, corresponding to 5.2'' at $z=5$. Indeed, enriched regions above these sizes would lead to higher $dN/dX$ measurements towards high-redshift quasars, or would require fewer galaxies than predicted from measurements of the luminosity function $\Phi(L)$, or extremely low metal enrichment efficiencies ($f<0.5$). The discovery of even a single such instance would put considerable strain on current models, and might require invoking extreme scatter among objects.
+This enables us to put constraints on the maximal extent of \magtwo enriched regions as a function of galaxy luminosity. For instance, the enriched regions around galaxies with $M_{AB} = -13$ cannot be larger 25 ckpc in any permissible model. Brighter galaxies with $M_{AB} \sim -18$ similarly cannot possess \magtwo regions larger than 200 ckpc, corresponding to 5.2'' at $z=5$. Indeed, enriched regions above these sizes would lead to higher $dN/dX$ measurements towards high-redshift quasars, or would require fewer galaxies than predicted from measurements of the luminosity function $\Phi(L)$, or extremely low metal enrichment efficiencies ($f<0.5$). The discovery of even a single such instance would put considerable strain on current models, or indicate the presence of a density correlation over large distances, such as a proto-cluster of galaxies.
 
-Models with large values of $L_\text{min}$, in which only the brightest galaxies produce enriched regions, might already be ruled out by the lack of confirmed galaxy-absorber pairs in observations of fields around quasars. Such models, shown in light gray in Figure 1, predict the galaxies corresponding to line-of-sight absorbers should be both bright and have large radii, and should therefore be readily visible in the surrounding fields. For instance, in models with $M_\text{min} = -18.7$, enriched regions always possess radii $R>140$ cMpc corresponding to 3.6'' on the sky. Assuming random alignment, the probability of confusion of such a galaxy with the central quasar in an instrument such as MUSE is roughly $\lesssim2\%$. A handful of non-detections therefore suffice to confidently constrain $M_\text{min} < -19$.
+Models with large values of $L_\text{min}$, in which only the brightest galaxies produce enriched regions, might already be ruled out by the lack of confirmed galaxy-absorber pairs in observations of fields around quasars. Such models, shown in light gray in Figure 1, predict that galaxies corresponding to line-of-sight absorbers should be both bright and have large radii, and should therefore be readily visible in the surrounding fields. For instance, in models with $M_\text{min} = -18.7$, enriched regions always possess radii $R>140$ ckpc corresponding to 3.6'' on the sky. Assuming random alignment, the probability of confusion of such a galaxy with the central quasar in an instrument such as MUSE is roughly $\lesssim2\%$. A handful of non-detections therefore suffice to confidently constrain $M_\text{min} > -19$.
 
-%Finally, and in my opinion the most useful aspect of this, is the bottom line of $R(L)$. The relation $R=R^* (L/L^*)^\beta$ actually only depends on two parameters: $L_{min}$ and $\beta$, with $R^*$ being obtainable by using our measurements of $dN/dX$. This results in Figure 4, a good summary of all the constraints currently available at $z=5$ with no priors. The figure really shows how good the constraints already are on the sizes of enriched haloes around faint objects: even 1 detection of a halo larger than these limits would raise very serious problems. It also presents an honest perspective on how uncertain the predictions are for the brightest objects. This figure will be extremely useful to observers looking for associated metal absorbers at high redshift.
+In other words, if the galaxies corresponding to \magtwo absorbers were distant from the quasar line-of-sight, they would be bright enough to be detectable in current exposures of surrounding fields. On the other hand, if the galaxies are sufficiently close to the line of sight to be confused with the central object, they would very likely have been inadvertently included in the slit spectroscopy of the background quasars. One might therefore hope to find \lal emission  from these objects superimposed on the \lal forest of high-redshift quasars. For instance, a recent 30h exposure of the $z=7$ quasar J1120+0641 utilised a 0.9'' slit, and possesses sufficient wavelength coverage to encompass both \magtwo absorption and \lal emission at $z>6.0$ \citep{Bosman17}. We find no peaks of \lal transmission near the redshifts of \magtwo absorbers in that object, even taking into account a possibly large kinematic offset ($\pm 2000$ km s${}^{-1}$) between the transitions. Assuming a \lal emission line width of $\sim 200$ km s${}^{-1}$ as has been found in typical high-redshift \lal emitters, we are able to put a conservative constraint on the line flux of the absorbing galaxy of $F_{\text{Ly}\alpha} < 9 \cdot 10^{-19}$ erg cm${}^2$ s${}^{-1}$ if it is indeed located in the same slit as the background quasar. This limit is challenging even with deep exposures of state-of-the-art IFUs; for instance, only five \lal lines fainter than this limit were found in a 27h deep-field exposure with MUSE under good conditions \citep{Bacon15}.
 
 
 \subsection{$R_\text{min}$}
 
+An intriguing implication of our analytic model is the existence of a \textit{minimum scale of enrichment}, $R_\text{min} = R(L_\text{min})$. Equation (8) has the property of making $R_\text{min}$ only weakly dependant on the choice of $\beta$, as shown in Figure 3. This measurement is particularly well-constrained at $z=5$. For instance, for $M_\text{min} = -15$ the radius of the smallest enriched region is constrained to be $20 < R_\text{min} < 40$ ckpc; only enriched regions larger than $R_\text{min}$ contribute to the observed \magtwo budget. These scales are already well resolved by cosmological numerical simulations such as Sherwood or Illustris, as presented in e.g. \citet{Keating16}. It is therefore possible that the disagreements between these simulations and the observed abundance rates of metals are not due to lack of resolution, but rather inadequate prescriptions for metal production and dispersal.
 
-
-
-
-%\section{Constraints on parameters}
-
-%We would hope to achieve a posterior like Figure 1 where the shaded area is the 'allowed region' of parameter space based on uncertainties in $\beta, dN/dX$, and the luminosity function.
-
-%\begin{figure}
-%\includegraphics[width=\columnwidth]{plots/sketch.png}
-%\caption{What we would like to get}
-%\end{figure}
-
-
-%which means that for each value of $L_{min}$, it is always possible to find a value of $\beta$ which reproduces the observations. Doing things this way, we can input the measurements of dN/dX (with uncertainties) and deduce $R^*$ as a function of $\beta$ and $L_{min}$. The results at $z=5$ are shown in Fig 2.
-
-%\begin{figure}
-%\includegraphics[width=\columnwidth]{plots/degen1.png}
-%\includegraphics[width=\columnwidth]{plots/degen2.png}
-%\caption{What the `posterior' actually looks like: colors blue to red show $\beta=0.1, 0.23, 0.3, 0.4$. Bottom is a zoom on the top panel.}
-%\end{figure}
-
-%\newpage
-
-%The problem is that the relation $R = R^* (L/L^*)^\beta$ is extremely uncertain at high redshift. There are no obvious priors as to what this should be, although some scalings of $R^*$ with $(1+z)^3$ have been suggested which we can look into (but this only holds at very low redshift according to the existing litt.). Therefore, a ML analysis would just recover any priors we choose to input into the calculation and isn't particularly justified or necessary.
-
-%There are still a wide range of physical conclusions to be drawn without priors. For instance, the size of the \textit{smallest enriched regions}, $R_{min} = R^* (L_{min}/L^*)^\beta$, is (surprisingly) stable to varying $\beta$ as shown in Fig 3. This is a useful plot for theorists who run simulations: given a choice of halo mass enrichment threshold, it tells the sizes which the simulations should resolve.
+The physical meaning of $R_\text{min}$ constitutes an interesting avenue for future research. If a minimal scale of metal enrichment truly exists, it is likely to be related to single-generation enrichment of the CGM by Pop III stars. However, it is crucial to note that the analysis presented in this paper is concerned only with \magtwo absorbers currently accessible to observations, i.e., those with equivalent widths $W_\text{r} > 0.1$\AA. Enrichment weaker than this threshold, if it is present, will be revealed by upcoming next-generation instruments such as ELT HIRES \citep{ELT-HIRES}. %There are indications of an upturn in the number of absorbers at the low-column density end (e.g. \citealt{Codoreanu17})
+A detailed analysis of the physical meaning of this minimal scale should therefore be reserved until the minimal threshold for enrichment has been established beyond observational limitations.
 
 \begin{figure}
 \includegraphics[width=\columnwidth]{plots/smallest1.png}
 \includegraphics[width=\columnwidth]{plots/smallest2.png}
-\caption{Sizes of the smallest enriched haloes: colors blue to red show $\beta=0.1, 0.23, 0.3, 0.4$. Bottom is a zoom on the top panel.}
+\caption{Sizes of the smallest enriched haloes: colours blue to red show $\beta=0.1, 0.23, 0.3, 0.4$. Bottom is a zoom on the top panel.}
 \end{figure}
 
-%\newpage
+\subsection{Redshift evolution}
 
+Beyond $z=6$, both the occurrence rate of absorbers ($dN/dX$) and the luminosity function of galaxies ($\Phi^*, \alpha$) become more uncertain by an order of magnitude compared to $z=5$. The range of possible $R(L)$ distributions therefore increases significantly, as can be seen in Figure 2. Interestingly, models with large galaxy-absorber separations still require those galaxies to have brightnesses $M_{AB} \gtrsim -15$ for separations $\gtrsim$ 1.5''. This reflects the fact that the number of bright galaxies at $z\sim 6.5$ is sufficient to explain the number density of absorbers; if the \magtwo haloes of those bright galaxies are larger than $\sim 100$ ckpc, the number of absorbers is exceeded even for the most conservative choices of parameters.
 
+Figure 3 suggests that \magtwo haloes were on average smaller at $z\sim6.5$ compared to $z=5$, and that faint galaxies make up a larger fraction of absorbers at earlier times. This is consistent with a picture of ongoing star formation and hierarchical mergers. Note, however, that out of the three redshift-dependent observables $\{\Phi^*,\alpha, dN/dX\}$, only one is evolving between $z=5$ and $z=6.5$ at more than $1 \sigma$ significance (see Tables 1 and 3). The difference between $R(L)$ at $z=5$ and $z\sim6.5$ is therefore likely driven mostly by a larger range of observationally permitted models, rather than intrinsic evolution.
 
+%\section{Conclusions}
 
-%\newpage
-
-%\section{TODO}
-%\begin{enumerate}
-%\item Do other redshift ranges
-%\end{enumerate}
-
-\section{Conclusions}
+%Pessimism about prospects to achieve galaxy-absorber pairs until next-gen instruments.
 
 \bibliographystyle{apj} \bibliography{bibliography}
 

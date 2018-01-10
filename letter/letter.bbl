@@ -6,6 +6,15 @@
   {Ebeling}}]{Atek15}
 {Atek}, H., {Richard}, J., {Kneib}, J.-P., {et~al.} 2015, \apj, 800, 18
 
+\bibitem[{{Bacon} {et~al.}(2015){Bacon}, {Brinchmann}, {Richard}, {Contini},
+  {Drake}, {Franx}, {Tacchella}, {Vernet}, {Wisotzki}, {Blaizot}, {Bouch{\'e}},
+  {Bouwens}, {Cantalupo}, {Carollo}, {Carton}, {Caruana}, {Cl{\'e}ment},
+  {Dreizler}, {Epinat}, {Guiderdoni}, {Herenz}, {Husser}, {Kamann}, {Kerutt},
+  {Kollatschny}, {Krajnovic}, {Lilly}, {Martinsson}, {Michel-Dansac},
+  {Patricio}, {Schaye}, {Shirazi}, {Soto}, {Soucail}, {Steinmetz}, {Urrutia},
+  {Weilbacher}, \& {de Zeeuw}}]{Bacon15}
+{Bacon}, R., {Brinchmann}, J., {Richard}, J., {et~al.} 2015, \aap, 575, A75
+
 \bibitem[{{Bergeron} \& {Boiss{\'e}}(1991)}]{Bergeron91}
 {Bergeron}, J., \& {Boiss{\'e}}, P. 1991, \aap, 243, 344
 
@@ -77,9 +86,30 @@ Bosman, S. E.~I., Becker, G.~D., Haehnelt, M.~G., {et~al.} 2017, \mnras, 470,
 {Kacprzak}, G.~G., {Churchill}, C.~W., {Barton}, E.~J., \& {Cooke}, J. 2011,
   \apj, 733, 105
 
+\bibitem[{{Keating} {et~al.}(2016){Keating}, {Puchwein}, {Haehnelt}, {Bird}, \&
+  {Bolton}}]{Keating16}
+{Keating}, L.~C., {Puchwein}, E., {Haehnelt}, M.~G., {Bird}, S., \& {Bolton},
+  J.~S. 2016, \mnras, 461, 606
+
 \bibitem[{{Livermore} {et~al.}(2017){Livermore}, {Finkelstein}, \&
   {Lotz}}]{Livermore17}
 {Livermore}, R.~C., {Finkelstein}, S.~L., \& {Lotz}, J.~M. 2017, \apj, 835, 113
+
+\bibitem[{{Marconi} {et~al.}(2016){Marconi}, {Di Marcantonio}, {D'Odorico},
+  {Cristiani}, {Maiolino}, {Oliva}, {Origlia}, {Riva}, {Valenziano}, {Zerbi},
+  {Abreu}, {Adibekyan}, {Allende Prieto}, {Amado}, {Benz}, {Boisse}, {Bonfils},
+  {Bouchy}, {Buchhave}, {Buscher}, {Cabral}, {Canto Martins}, {Chiavassa},
+  {Coelho}, {Christensen}, {Delgado-Mena}, {de Medeiros}, {Di Varano},
+  {Figueira}, {Fisher}, {Fynbo}, {Glasse}, {Haehnelt}, {Haniff}, {Hansen},
+  {Hatzes}, {Huke}, {Korn}, {Le{\~a}o}, {Liske}, {Lovis}, {Maslowski},
+  {Matute}, {McCracken}, {Martins}, {Monteiro}, {Morris}, {Morris}, {Nicklas},
+  {Niedzielski}, {Nunes}, {Palle}, {Parr-Burman}, {Parro}, {Parry}, {Pepe},
+  {Piskunov}, {Queloz}, {Quirrenbach}, {Rebolo Lopez}, {Reiners}, {Reid},
+  {Santos}, {Seifert}, {Sousa}, {Stempels}, {Strassmeier}, {Sun}, {Udry},
+  {Vanzi}, {Vestergaard}, {Weber}, \& {Zackrisson}}]{ELT-HIRES}
+{Marconi}, A., {Di Marcantonio}, P., {D'Odorico}, V., {et~al.} 2016, in
+  \procspie, Vol. 9908, Ground-based and Airborne Instrumentation for Astronomy
+  VI, 990823
 
 \bibitem[{{Mason} {et~al.}(2015){Mason}, {Trenti}, \& {Treu}}]{Mason15}
 {Mason}, C.~A., {Trenti}, M., \& {Treu}, T. 2015, \apj, 813, 21
